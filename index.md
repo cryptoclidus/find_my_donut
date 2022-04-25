@@ -1,6 +1,6 @@
 <form>
-  <label for="fname">First name:</label>
-  <input type="text" id="donutnumber" name="Donut Number"><br><br>
+  <label for="fname">Donut Number:</label>
+  <input type="text" id="donutnumber" name="donutnumber"><br><br>
 </form>
 You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.
 
