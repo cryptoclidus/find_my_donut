@@ -3,7 +3,11 @@
   <input type="text" id="donutnumber" name="donutnumber"><br><br>
 </form>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
-<script>$("#donut-img").attr('src','https://poliigon.com/cdn-cgi/image/width=512,f=aut…submissions/19lrbMqWZ6GiGRgfQBjQtuSeecer0Beto.png')</script>
+<script>
+  $().ready(function() {
+   $("#donut-img").attr('src','https://poliigon.com/cdn-cgi/image/width=512,f=aut…submissions/19lrbMqWZ6GiGRgfQBjQtuSeecer0Beto.png');
+  });
+</script>
 
 <img id="donut-img">
 You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.
