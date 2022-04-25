@@ -5,11 +5,11 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
 <script>
   $().ready(function() {
-   $("#donut-img").attr('src','https://poliigon.com/cdn-cgi/image/width=512,f=auto/https://cdn.crypdonuts.guru/submissions/19lrbMqWZ6GiGRgfQBjQtuSeecer0Beto.png');
+   $("#donut-img").attr('src','https://poliigon.com/cdn-cgi/image/width=256,f=auto/https://cdn.crypdonuts.guru/submissions/19lrbMqWZ6GiGRgfQBjQtuSeecer0Beto.png');
   });
 </script>
 
-<img id="donut-img" src='https://poliigon.com/cdn-cgi/image/width=512,f=auto/https://cdn.crypdonuts.guru/submissions/19lrbMqWZ6GiGRgfQBjQtuSeecer0Beto.png'>
+<img id="donut-img">
 You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run Jekyll to rebuild the pages in your site, from the content in your Markdown files.
