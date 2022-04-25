@@ -5,7 +5,7 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
 <script>
   $().ready(function() {
-   $("#donut-img").attr('src','https://poliigon.com/cdn-cgi/image/width=512,f=aut…submissions/19lrbMqWZ6GiGRgfQBjQtuSeecer0Beto.png');
+   $("#donut-img").attr('src','https://poliigon.com/cdn-cgi/image/width=512,f=auto/https://cdn.crypdonuts.guru/submissions/19lrbMqWZ6GiGRgfQBjQtuSeecer0Beto.png');
   });
 </script>
 
