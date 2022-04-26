@@ -6,8 +6,7 @@
 <script>
   $().ready(function() {
    $("#donut-img").attr('src','https://poliigon.com/cdn-cgi/image/width=256,f=auto/https://cdn.crypdonuts.guru/submissions/19lrbMqWZ6GiGRgfQBjQtuSeecer0Beto.png');
-    $( ".donut-img" ).load( "https://andrewprice.art/17731-first-steps/donut/7473", function(x) {
-      $("#donut-img1").attr('src', https://poliigon.com/cdn-cgi/image/width=256,f=auto/https://cdn.crypdonuts.guru/submissions/1pLBsq9Wu_GzkpLrDNwZqp8uXvz3nzIWM.png);
+    $( "#donut-img1" ).load( "https://andrewprice.art/17731-first-steps/donut/7473 .donut-img.attr('src')", function(x) {
     });
   });
 </script>
