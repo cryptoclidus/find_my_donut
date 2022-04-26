@@ -6,10 +6,14 @@
 <script>
   $().ready(function() {
    $("#donut-img").attr('src','https://poliigon.com/cdn-cgi/image/width=256,f=auto/https://cdn.crypdonuts.guru/submissions/19lrbMqWZ6GiGRgfQBjQtuSeecer0Beto.png');
+    $( ".donut-img" ).load( "https://andrewprice.art/17731-first-steps/donut/7473", function(x) {
+      $("#donut-img1").attr('src', x.attr('src'));
+    });
   });
 </script>
 
 <img id="donut-img">
+<img id="donut-img1">
 You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run Jekyll to rebuild the pages in your site, from the content in your Markdown files.
