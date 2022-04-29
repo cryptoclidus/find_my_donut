@@ -1,5 +1,3 @@
-
-        <link rel="stylesheet" href="stylesheet.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
  <script src="https://docs.opencv.org/3.3.1/opencv.js" type="text/javascript"></script>
         <script>
