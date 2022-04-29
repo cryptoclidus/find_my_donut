@@ -1,5 +1,4 @@
-<html>
-    <head>
+
         <link rel="stylesheet" href="stylesheet.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
  <script src="https://docs.opencv.org/3.3.1/opencv.js" type="text/javascript"></script>
@@ -211,8 +210,7 @@ f();
             });
          
         </script>
-    </head>
-    <body>
+
         <form>
             <label for="fdonut-id">Donut number:</label>
             <input type="number" id="fdonut-id" name="fdonut-id" value=1 min=0 max=17731 required><br><br>
@@ -224,13 +222,11 @@ f();
         <img id="donut-img" name="donut-img"/>
         <div id="searching"></div>
         <img id="test-tile" />
-        <img id+"donut-resized1"/>
+        <img id="donut-resized1"/>
         <canvas id="donut-resized"></canvas>
         <canvas id="donut-locator"></canvas>
 
-    </body>
 
-</html>
 You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run Jekyll to rebuild the pages in your site, from the content in your Markdown files.
