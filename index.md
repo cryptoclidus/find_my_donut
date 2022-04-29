@@ -224,7 +224,7 @@ f();
         <img id="donut-img" name="donut-img"/>
         <div id="searching"></div>
         <img id="test-tile" />
-        <img id+"donut-resized1"/>
+        <img id="donut-resized1"/>
         <canvas id="donut-resized"></canvas>
         <canvas id="donut-locator"></canvas>
 
