@@ -220,7 +220,7 @@ f();
         <div id="country"></div>
         <img id="donut-img" name="donut-img"/>
         <div id="searching"></div>
-        <img id="test-tile"src="scaled_donut.png" />
+        <img id="test-tile" src="scaled_donut.png" />
         <img id="donut-resized1"/>
         <canvas id="donut-resized"></canvas>
         <canvas id="donut-locator"></canvas>
