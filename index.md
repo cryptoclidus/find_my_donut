@@ -1,3 +1,6 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
  <script src="https://docs.opencv.org/3.3.1/opencv.js" type="text/javascript"></script>
         <script>
@@ -208,7 +211,8 @@ f();
             });
          
         </script>
-
+    </head>
+    <body>
         <form>
             <label for="fdonut-id">Donut number:</label>
             <input type="number" id="fdonut-id" name="fdonut-id" value=1 min=0 max=17731 required><br><br>
@@ -220,37 +224,10 @@ f();
         <img id="donut-img" name="donut-img"/>
         <div id="searching"></div>
         <img id="test-tile" />
-        <img id="donut-resized1"/>
+        <img id+"donut-resized1"/>
         <canvas id="donut-resized"></canvas>
         <canvas id="donut-locator"></canvas>
 
+    </body>
 
-You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run Jekyll to rebuild the pages in your site, from the content in your Markdown files.
-
-Markdown
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-For more details see Basic writing and formatting syntax.
-
-Jekyll Themes
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your repository settings. The name of this theme is saved in the Jekyll _config.yml configuration file.
-
-Support or Contact
-Having trouble with Pages? Check out our documentation or contact support and we’ll help you sort it out.
+</html>
