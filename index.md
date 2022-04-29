@@ -35,7 +35,7 @@
                    
                             
             
-                            $("#test-tile").attr("src","https://s3.us-east-2.amazonaws.com/cdn.crypdonuts.guru/donut_files/"+level+"/"+row+"_"+column+".jpeg");
+                            //$("#test-tile").attr("src","https://s3.us-east-2.amazonaws.com/cdn.crypdonuts.guru/donut_files/"+level+"/"+row+"_"+column+".jpeg");
                             $("#searching").text("Searching in "+row+"_"+column);
                             
                             
@@ -220,7 +220,7 @@ f();
         <div id="country"></div>
         <img id="donut-img" name="donut-img"/>
         <div id="searching"></div>
-        <img id="test-tile" />
+        <img id="test-tile"src="scaled_donut.png" />
         <img id="donut-resized1"/>
         <canvas id="donut-resized"></canvas>
         <canvas id="donut-locator"></canvas>
