@@ -1,6 +1,5 @@
 <html>
     <head>
-        <link rel="stylesheet" href="stylesheet.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
  <script src="https://docs.opencv.org/3.3.1/opencv.js" type="text/javascript"></script>
         <script>
@@ -33,10 +32,7 @@
                 }
                 
                 function match(row,column, level, x_donuts){
-                    
-                    var template_url = "https://poliigon.com/cdn-cgi/image/width=32,f=auto/";
-                            var donut_url = $("#donut-img").attr("src");
-                            $("#donut-resized1").attr("src", template_url + donut_url);
+                   
                             
             
                             $("#test-tile").attr("src","https://s3.us-east-2.amazonaws.com/cdn.crypdonuts.guru/donut_files/"+level+"/"+row+"_"+column+".jpeg");
@@ -179,6 +175,7 @@ f();
                      
                      $('#country').text(data.Country);
                      $("#donut-img").attr("src", "https://poliigon.com/cdn-cgi/image/width=256,f=auto/"+data.BlenderFile);
+                     $("#donut-resized1").attr("src", "https://poliigon.com/cdn-cgi/image/width=32,f=auto/"+data.BlenderFile);
                      $("#name").text(data.FullName + "'s Donut");
                      $("#donut-no").text("Donut #"+data.objectID);
                      $("#searching").text("searching for Donut#"+data.objectID+"...");
