@@ -198,7 +198,7 @@ Welcome to the donut finder! Head over to <a href="https://andrewprice.art/17731
                 donut_id = $("#fdonut-id").val()
             }
             
-            findDonut(donut_id);
+            //findDonut(donut_id);
             
             //activate button
             $("#submitBtn").click(function(){
