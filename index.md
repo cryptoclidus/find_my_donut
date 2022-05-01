@@ -113,6 +113,7 @@ Welcome to the donut finder! Head over to <a href="https://andrewprice.art/17731
                 let dst_mat = new cv.Mat();
                 cv.cvtColor(templ, dst_mat, cv.COLOR_BGRA2GRAY, dstCn=0);
                 templ = dst_mat;
+                delete dst_mat;
                 
                 // perform match
                 currMax = 0;
@@ -125,8 +126,10 @@ Welcome to the donut finder! Head over to <a href="https://andrewprice.art/17731
 
 
                     cv.matchTemplate(src, templ, dst, cv.TM_CCORR_NORMED, mask);
-
+                    delete src;
                     let result = cv.minMaxLoc(dst, mask);
+                    delete mask;
+                    delete dst;
                     let maxPoint = result.maxLoc;
                     let maxVal = result.maxVal;
                     
