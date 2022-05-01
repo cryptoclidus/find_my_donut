@@ -202,4 +202,4 @@ Welcome to the donut finder! Head over to <a href="https://andrewprice.art/17731
         });
     </script>
 </html>
-*This page is fan made by a donut contributor and is not affiliated with Andrew Price. All images are sourced from [https://andrewprice.art/](https://andrewprice.art/).*
+*This page is fan made by donut contributor #4314 and is not affiliated with our favorite teacher of blender donut modelling Andrew Price. All images are sourced from [https://andrewprice.art/](https://andrewprice.art/).*
