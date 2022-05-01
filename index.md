@@ -1,4 +1,4 @@
-Welcome to the donut finder! Head over to <a href="https://andrewprice.art/17731-first-steps/donuts" target="_blank">Andrew Price's Donut Database</a> to find your donut number. Then enter your number below and the Finder will try to find your donut in the mosaic using image recognition! This page is fan made by a donut contributor and is not affiliated with Andrew Price.
+Welcome to the donut finder! Head over to <a href="https://andrewprice.art/17731-first-steps/donuts" target="_blank">Andrew Price's Donut Database</a> to find your donut number. Then enter your number below and the Finder will try to find your donut in the mosaic using image recognition! 
 
 <html>
     <head>
@@ -33,7 +33,7 @@ Welcome to the donut finder! Head over to <a href="https://andrewprice.art/17731
         <img id="tile"/>
         <div id="donut_small_div"></div>
         
-        
+
         
     </body>
     <script>
@@ -202,3 +202,4 @@ Welcome to the donut finder! Head over to <a href="https://andrewprice.art/17731
         });
     </script>
 </html>
+*This page is fan made by a donut contributor and is not affiliated with Andrew Price. All images are sourced from [https://andrewprice.art/](https://andrewprice.art/).*
