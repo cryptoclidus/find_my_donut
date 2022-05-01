@@ -179,6 +179,8 @@ Welcome to the donut finder! Head over to <a href="https://andrewprice.art/17731
                 
 
                 $("#caption").text("Is this your donut in the image below?");
+            }).catch(function(rejected){
+                console.log(rejected);;
             });
         }
         // Main
