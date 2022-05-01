@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+Welcome to the donut finder! Head over to <a href="https://andrewprice.art/17731-first-steps/donuts" target="_blank">Andrew Price's Donut Database</a> to find your donut number. Then enter your number below to locate your donut in the mosaic! This page is fan made by a donut contributor and is not affiliated with Andrew Price.
+
 <html>
     <head>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -13,7 +14,6 @@
         <script src="https://cryptoclidus.github.io/find_my_donut/donut_slice_7.js"></script>
         <script src="https://cryptoclidus.github.io/find_my_donut/donut_slice_8.js"></script>
         <script src="https://cryptoclidus.github.io/find_my_donut/donut_slice_9.js"></script>
-        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
 
