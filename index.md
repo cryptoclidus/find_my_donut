@@ -165,7 +165,9 @@ Welcome to the donut finder! Head over to <a href="https://andrewprice.art/17731
                     cv.rectangle(donutSmall, topLeft, bottomRight, color, 2, cv.LINE_8, 0);
                     //hide old donut, show new
                     resized = resize(donutSmall,256,256);
+                    delete donutSmall;
                     cv.imshow(canvasElement, resized);
+                    delete resized;
                     $("#donut_small_div").html("");
                });
                 
