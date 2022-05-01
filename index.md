@@ -37,6 +37,8 @@ Welcome to the donut finder! Head over to <a href="https://andrewprice.art/17731
         
     </body>
     <script>
+        const canvas = document.getElementById('result');
+        const context = canvas.getContext('2d');
         const donut_slices = [
             donut_slice_0,
             donut_slice_1,
@@ -90,6 +92,10 @@ Welcome to the donut finder! Head over to <a href="https://andrewprice.art/17731
             $("#name").text("");
             $("#donut-no").text("");
             $("#caption").text("");
+            $("#tile").attr("src","");
+            
+            
+            context.clearRect(0, 0, canvas.width, canvas.height);
 
             //get donut url and load image
             url = getDonutUrl(number);
