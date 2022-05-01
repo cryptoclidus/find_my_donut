@@ -168,11 +168,8 @@ Welcome to the donut finder! Head over to <a href="https://andrewprice.art/17731
                 https://s3.us-east-2.amazonaws.com/cdn.crypdonuts.guru/donut_files/14/33_28.jpeg
                 $("#tile").attr("src","https://s3.us-east-2.amazonaws.com/cdn.crypdonuts.guru/donut_files/"+String(level)+"/"+String(tile_x)+"_"+String(tile_y)+".jpeg");
                 
-                if (parseInt(donut_id) == 1) {
-                    $("#caption").text("Unfortunately the Finder doesn't work for Andrew's Donut!!!!");
-                } else {
-                    $("#caption").text("Is this your donut in the image below?");
-                }
+
+                $("#caption").text("Is this your donut in the image below?");
             });
         }
         // Main
