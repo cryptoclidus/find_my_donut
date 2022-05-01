@@ -29,6 +29,7 @@ Welcome to the donut finder! Head over to <a href="https://andrewprice.art/17731
         <div id="donut-locator">
             <canvas id="result"></canvas>
         </div>
+        <p id="caption"></p>
         <img id="tile"/>
         <div id="donut_small_div"></div>
         
@@ -88,6 +89,7 @@ Welcome to the donut finder! Head over to <a href="https://andrewprice.art/17731
             $('#country').text("");
             $("#name").text("");
             $("#donut-no").text("");
+            $("#caption").text("");
 
             //get donut url and load image
             url = getDonutUrl(number);
@@ -165,6 +167,10 @@ Welcome to the donut finder! Head over to <a href="https://andrewprice.art/17731
                 let tile_y = Math.floor(centerPoint.y / 254);
                 https://s3.us-east-2.amazonaws.com/cdn.crypdonuts.guru/donut_files/14/33_28.jpeg
                 $("#tile").attr("src","https://s3.us-east-2.amazonaws.com/cdn.crypdonuts.guru/donut_files/"+String(level)+"/"+String(tile_x)+"_"+String(tile_y)+".jpeg");
+                $("#caption").text("The Finder thinks your donut is somewhere in the image below!");
+                if (donut_id == 1) {
+                    $("#caption").text("Unfortunately the Finder doesn't work for Andrew's Donut!!!!");
+                }
             });
         }
         // Main
