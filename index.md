@@ -3,16 +3,16 @@
     <head>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://docs.opencv.org/3.3.1/opencv.js" type="text/javascript"></script>
-        <script src="donut_slice_0.js"></script>
-        <script src="donut_slice_1.js"></script>
-        <script src="donut_slice_2.js"></script>
-        <script src="donut_slice_3.js"></script>
-        <script src="donut_slice_4.js"></script>
-        <script src="donut_slice_5.js"></script>
-        <script src="donut_slice_6.js"></script>
-        <script src="donut_slice_7.js"></script>
-        <script src="donut_slice_8.js"></script>
-        <script src="donut_slice_9.js"></script>
+        <script src="https://cryptoclidus.github.io/find_my_donut/donut_slice_0.js"></script>
+        <script src="https://cryptoclidus.github.io/find_my_donut/donut_slice_1.js"></script>
+        <script src="https://cryptoclidus.github.io/find_my_donut/donut_slice_2.js"></script>
+        <script src="https://cryptoclidus.github.io/find_my_donut/donut_slice_3.js"></script>
+        <script src="https://cryptoclidus.github.io/find_my_donut/donut_slice_4.js"></script>
+        <script src="https://cryptoclidus.github.io/find_my_donut/donut_slice_5.js"></script>
+        <script src="https://cryptoclidus.github.io/find_my_donut/donut_slice_6.js"></script>
+        <script src="https://cryptoclidus.github.io/find_my_donut/donut_slice_7.js"></script>
+        <script src="https://cryptoclidus.github.io/find_my_donut/donut_slice_8.js"></script>
+        <script src="https://cryptoclidus.github.io/find_my_donut/donut_slice_9.js"></script>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
