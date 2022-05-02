@@ -133,6 +133,7 @@ Welcome to the donut finder! Head over to <a href="https://andrewprice.art/17731
 
                     cv.matchTemplate(src, templ, dst, cv.TM_CCORR_NORMED, mask);
                     delete src;
+                    delete templ;
                     let result = cv.minMaxLoc(dst, mask);
                     delete mask;
                     delete dst;
